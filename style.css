@@ -1198,6 +1198,7 @@ ul.info-list li i {
   margin-right: 10px;
   vertical-align: middle;
   color: #f26522;
+  line-height: 22px;
 }
 ul.info-list li a {
   color: #fff;
@@ -1218,7 +1219,7 @@ ul.info-list.info_on_right_side li:last-child {
 #site-logo {
   display: table-cell;
   vertical-align: middle;
-  padding: 15px 0;
+  padding: 5px 0;
 }
 
 /*--------------------------------------------------------------
@@ -1249,7 +1250,9 @@ ul.info-list.info_on_right_side li:last-child {
   list-style: none;
   margin: 0px 0px;
   padding: 0px 0px;
-  float: right;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .main-navigation > ul > li {
