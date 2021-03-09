@@ -2846,7 +2846,7 @@ ul.info-list.info_on_right_side li:last-child {
   content: "";
   display: block;
   border-bottom: 1px solid grey;
-  width: 100%;
+  width: 80%;
 }
 
 .footer-address .footer-address-single .address-branch i {
