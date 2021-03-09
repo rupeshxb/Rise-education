@@ -2852,6 +2852,10 @@ ul.info-list.info_on_right_side li:last-child {
   width: 80%;
 }
 
+.footer-address .footer-address-single .address-branch:last-child ul::after {
+  border-bottom: none;
+}
+
 .footer-address .footer-address-single .address-branch i {
   position: absolute;
   left: 0px;
@@ -4827,7 +4831,7 @@ Approved by section ends
 }
 
 .main-footer #media_image-1 img {
-  height: 100px;
+  height: 120px;
 }
 
 @media only screen and (max-width: 767px) {
