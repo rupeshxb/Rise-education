@@ -1683,8 +1683,7 @@ ul.info-list.info_on_right_side li:last-child {
   }
 
   .main-header-top {
-    /* background: linear-gradient(90deg, white, #1b01843b); */
-    background: #00387a;
+    background: linear-gradient(90deg, #fefeff, #002c60);
   }
 
   body.logged-in.admin-bar .header-fixed {
@@ -4717,6 +4716,7 @@ div.line-chart .chart-legend li {
 .partner-title .sub {
   color: grey;
   font-weight: 600;
+  margin-bottom: 30px;
   font-family: "Montserrat";
 }
 
