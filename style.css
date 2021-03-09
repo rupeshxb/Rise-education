@@ -1386,8 +1386,8 @@ ul.info-list.info_on_right_side li:last-child {
 }
 
 .main-navigation ul > li > ul > li:hover > ul {
-  right: 100%;
   top: 0%;
+  left: 100%;
 }
 
 .main-navigation ul > li > ul > li:first-child > ul,
