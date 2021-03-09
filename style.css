@@ -1371,9 +1371,8 @@ ul.info-list.info_on_right_side li:last-child {
 }
 
 .main-navigation ul li ul ul {
-  right: 110%;
+  left: 100%;
   top: 0%;
-  left: auto;
 }
 
 .main-navigation ul li:hover > ul {
