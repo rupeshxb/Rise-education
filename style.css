@@ -1682,6 +1682,11 @@ ul.info-list.info_on_right_side li:last-child {
     display: none;
   }
 
+  .main-header-top {
+    /* background: linear-gradient(90deg, white, #1b01843b); */
+    background: #00387a;
+  }
+
   body.logged-in.admin-bar .header-fixed {
     top: 32px;
   }
