@@ -1816,7 +1816,7 @@ ul.info-list.info_on_right_side li:last-child {
 
   .header_mobile .mlogo_wrapper {
     position: relative;
-    background: #fff;
+    background: linear-gradient(135deg, #c3c3c3, #002c60);
     padding: 22px 35px 22px 35px;
   }
 
@@ -1824,12 +1824,16 @@ ul.info-list.info_on_right_side li:last-child {
     float: left;
   }
 
+  .header_mobile .mlogo_wrapper .mobile_logo img {
+    height: 100px;
+  }
+
   #mmenu_toggle {
     position: relative;
     cursor: pointer;
     float: right;
     width: 26px;
-    height: 20px;
+    height: 70px;
     padding: 10px 0;
     margin: 14px 0 0;
   }
@@ -2205,6 +2209,12 @@ ul.info-list.info_on_right_side li:last-child {
   .arrow
   i:after {
   background: #fff;
+}
+
+@media (max-width: 320px) {
+  #mmenu_toggle {
+    height: auto;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -4751,6 +4761,7 @@ Approved by section ends
 
 .main-footer {
   padding: 60px 0 30px;
+  background: linear-gradient(135deg, #c3c3c3, #002c60);
 }
 .main-footer h4 {
   color: #fff;
